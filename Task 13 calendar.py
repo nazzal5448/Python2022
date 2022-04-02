@@ -1,5 +1,5 @@
 m=["january","february","march","april","may","june",
-	"july"," august","september","october","november","december"]
+	"july","august","september","october","november","december"]
 
 for month in m:
 	print("\n============================================================")
