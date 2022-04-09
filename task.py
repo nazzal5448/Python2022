@@ -1,10 +1,10 @@
 a= [['happy','BirtHday','to','yoU'],['this','Is','MY','BdaY','Month'],['wish','me','HappY','BirtHday']]
 
-b=[]
-c=[]
-d=[]
-e=[]
-def upper(l):
+def upper(a):
+    b=[]
+    c=[]
+    d=[]
+    e=[]
     for l in a:
         if l==a[0]:
             for l1 in l:
@@ -20,5 +20,7 @@ def upper(l):
             e.append(d)
         else:
             pass
+    print(e)
+     
 
 upper(a)
